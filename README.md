@@ -1,16 +1,22 @@
 
 # Hospital Management
-![developer](https://img.shields.io/badge/Developed%20By%20%3A-Sumit%20Kumar-red)
+Developed By : ```Chaimaa Bourajli```
+                ```Zakaria Zirh```
+                ```Anass Cherraqi```
+                ```Yassine Laaroussi```
+
 ---
-## screenshots
+### About Us
+![Alt text](static/screenshots/1.png)
 ### Homepage
-![homepage snap](https://github.com/sumitkumar1503/hospitalmanagement/blob/master/static/screenshots/homepage.png?raw=true)
+![Alt text](static/screenshots/2.png)
+![Alt text](static/screenshots/3.png)
 ### Admin Dashboard
-![dashboard snap](https://github.com/sumitkumar1503/hospitalmanagement/blob/master/static/screenshots/admin_dashboard.png?raw=true)
-### Invoice
-![invoice snap](https://github.com/sumitkumar1503/hospitalmanagement/blob/master/static/screenshots/invoice.png?raw=true)
-### Doctor list
-![doctor snap](https://github.com/sumitkumar1503/hospitalmanagement/blob/master/static/screenshots/admin_doctor.png?raw=true)
+![Alt text](static/screenshots/4.png)
+### Admit Doctor to hospital
+![Alt text](static/screenshots/5.png)
+### Admit Patient To Hospital
+![Alt text](static/screenshots/6.png)
 ---
 ## Functions
 ### Admin
@@ -71,6 +77,3 @@ https://myaccount.google.com/lesssecureapps
 - Any one can be Admin. There is no Approval required for admin account. So you can disable admin signup process and use any logic like creating superuser.
 - There should be at least one doctor in hospital before admitting patient. So first add doctor.
 - On update page of doctor/patient you must have to update password.
-
-## Disclaimer
-This project is developed for demo purpose and it's not supposed to be used in real application.
