@@ -29,6 +29,16 @@ def doctorclick_view(request):
         return HttpResponseRedirect('afterlogin')
     return render(request,'hospital/doctorclick.html')
 
+def superadminclick_view(request):
+    if request.user.is_authenticated:
+        return HttpResponseRedirect('afterlogin')
+    return render(request,'hospital/superadminclick.html')
+
+def staffclick_view(request):
+    if request.user.is_authenticated:
+        return HttpResponseRedirect('afterlogin')
+    return render(request,'hospital/staffclick.html')
+
 
 #for showing signup/login button for patient(by sumit)
 def patientclick_view(request):
